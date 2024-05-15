@@ -34,8 +34,6 @@ Feature: Demo Blaze Sanity Test
     And user clicks on Log in link
     When The user enters sheetname "<Sheetname>" and <RowNumber>
 
-
-    #And user logs out
     Examples: 
       | Sheetname | RowNumber |
       | Sheet1    |         0 |

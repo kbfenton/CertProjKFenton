@@ -96,7 +96,8 @@ public class DBStepDefinitions {
 	}
 
 	// ---------------- @test4 ------------------------
-
+	
+	// ------- User clicks on Log in Link on the Menu -------
 	@And("user clicks on Log in link")
 	public void user_clicks_on_log_in_link() {
 		dbLoginPg.clicksLogInLink();

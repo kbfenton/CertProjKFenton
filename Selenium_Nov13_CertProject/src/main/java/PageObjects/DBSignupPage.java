@@ -65,8 +65,8 @@ public class DBSignupPage {
 
 	public void enterSignupPage(String Username, String Password) {
 
-		newUsername.sendKeys("TesterLexineRR@gmail.com");
-		newPassword.sendKeys("RR");
+		newUsername.sendKeys("TesterLexineTF@gmail.com");
+		newPassword.sendKeys("LTF");
 
 	}
 

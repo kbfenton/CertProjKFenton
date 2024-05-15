@@ -68,7 +68,7 @@ public class DBHomePage {
 	@FindBy(xpath = "//button(text(),'Close')]")
 	private static WebElement closeBtn;
 	
-
+// Log into Demo Blaze application
 	public void loadDBApplication() {
 
 		// hit the url
@@ -79,6 +79,8 @@ public class DBHomePage {
 
 	}
 
+	////////////////////////// Test #1///////////////////////////////////////
+	//Validate the menu links on the Demo Blaze Home Page
 	public void validateLinks(String menuItem) throws InterruptedException {
 		
 		System.out.println("-----------------Test 1 --------------");
